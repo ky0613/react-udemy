@@ -208,3 +208,30 @@ document.getElementById("app").innerHTML = `
 // }
 
 // console.log(checkSum(50, 60));
+
+/**
+ * 論理演算子を本当の意味を知ろう
+ */
+
+//  const flag1 = true
+//  const flag2 = false
+
+//  if (flag1 || flag2) {
+//    console.log("1か２はtrueになります");
+//  }
+//  if (flag1 && flag2) {
+//    console.log("1も２もtrueになります");
+//  }
+
+// || は左側がfalseとなるとき右側を返す
+// 左側から判定していってtrueのものが見つかったらそれを返す
+// const num = null
+// const fee = num || true ||"金額未設定です"
+// console.log(fee);
+
+// && は左側がtrueなら右側を返す
+// 左側から判定していってfalseがあればそれを返す
+// すべてtrueだったら一番最後のものを返す
+// const num1 =  100
+// const fee2 = num1 && 'なにか設定されました' && '最後まできたね'
+// console.log(fee2);
