@@ -226,12 +226,12 @@ document.getElementById("app").innerHTML = `
 // || は左側がfalseとなるとき右側を返す
 // 左側から判定していってtrueのものが見つかったらそれを返す
 // const num = null
-// const fee = num || true ||"金額未設定です"
+// const fee = num || "" || "金額未設定です" || "aaa"
 // console.log(fee);
 
 // && は左側がtrueなら右側を返す
 // 左側から判定していってfalseがあればそれを返す
 // すべてtrueだったら一番最後のものを返す
 // const num1 =  100
-// const fee2 = num1 && 'なにか設定されました' && '最後まできたね'
+// const fee2 = num1 && 'aaa' && '最後まできたね'
 // console.log(fee2);
